@@ -50,10 +50,15 @@ public Boolean setRating(){
 		return true;
 	}
 	return false;
-
-
 }
 
+// Is premium method
+public Boolean isPremium(){
+	if (premium.isPremium){
+		return true;
+	}
+	return false;
+}
 
 
 
